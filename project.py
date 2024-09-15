@@ -11,8 +11,8 @@ from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping
 
 # Step 1: Load and preprocess the data
 def load_data():
-    train_dir = r'C:\Users\Rohan Uplenchwar\Downloads\archive (2)\Seismic_data\train'  # Replace with your actual path
-    test_dir = r'C:\Users\Rohan Uplenchwar\Downloads\archive (2)\Seismic_data\test'    # Replace with your actual path
+    train_dir = r'C:\Users\Rohan Uplenchwar\OneDrive\Desktop\PYTHON\Seismic-Detection\archive (2)\Seismic_data\train'  # Replace with your actual path
+    test_dir = r'C:\Users\Rohan Uplenchwar\OneDrive\Desktop\PYTHON\Seismic-Detection\archive (2)\Seismic_data\test'    # Replace with your actual path
 
     # Data augmentation and image preprocessing
     datagen = ImageDataGenerator(
